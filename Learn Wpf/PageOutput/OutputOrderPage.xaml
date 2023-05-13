@@ -1,0 +1,73 @@
+﻿<Page x:Class="Learn_Wpf.PageOutput.OutputOrderPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Learn_Wpf.PageOutput"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="OutputOrderPage">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF2B1010" Offset="1"/>
+                <GradientStop Color="#FF1F1111" Offset="0.337"/>
+                <GradientStop Color="#FF130505" Offset="0.643"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Column="0" Width="250" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="5">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF1D1D"/>
+                    <GradientStop Color="#FFF73D13" Offset="1"/>
+                    <GradientStop Color="#FFC11A1A" Offset="0.534"/>
+                    <GradientStop Color="#FF5B2626" Offset="0.737"/>
+                    <GradientStop Color="#FFBB0F0F" Offset="0.277"/>
+                    <GradientStop Color="#FFAD6464" Offset="0.12"/>
+                    <GradientStop Color="#FF8A4F4F" Offset="0.446"/>
+                    <GradientStop Color="#FFFF2828" Offset="0.363"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+
+            <Menu.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8" />
+                </Style>
+            </Menu.Resources>
+
+            <TextBlock Text="Food Menu" FontSize="30" Foreground="#fff" Margin="5"/>
+
+            <Separator Width="250" />
+            <MenuItem FontSize="25" Foreground="#ffff" Header="Food" Margin="0,5,0,0" />
+            <Separator Width="250" />
+
+            <MenuItem FontSize="25" Foreground="#ffff" Header="Deserts" Margin="0,5,0,0" />
+            <Separator Width="250"/>
+
+            <MenuItem FontSize="25" Foreground="#ffff" Header="Soup" Margin="0,5,0,0" />
+            <Separator Width="250" />
+
+            <MenuItem FontSize="25" Foreground="#ffff" Header="Snacks" Margin="0,5,0,0" />
+            <Separator Width="250" />
+
+        </Menu>
+
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#ffff" FontSize="35" Text="Our Food" />
+
+        <Image Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Source="../img/image1.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+
+        <Image Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Source="../img/image2.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+
+        <Image Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Source="../img/image3.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+
+    </Grid>
+</Page>

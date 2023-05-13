@@ -1,0 +1,72 @@
+﻿<Window x:Class="Learn_Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Learn_Wpf"
+        mc:Ignorable="d"
+        Title="Food Master Restaurant" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF1F0505" Offset="1"/>
+                <GradientStop Color="#FFE02626" Offset="0.286"/>
+                <GradientStop Color="#FFA20C0C" Offset="0.594"/>
+                <GradientStop Color="#FFEA1B1B" Offset="0.76"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Image Source="img/background-image.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Food Master Restaurant" Foreground="#ffff" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+
+        <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Top" TextAlignment="Center" FontSize="17" Padding="5" Height="75" Margin="90" Foreground="White">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15" />
+                </Style>
+            </TextBox.Resources>
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF381919"/>
+                    <GradientStop Color="#FFB35858" Offset="1"/>
+                    <GradientStop Color="#FFD42020" Offset="0.42"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+
+        <TextBox x:Name="password_textbox" VerticalAlignment="Top" TextAlignment="Center" FontSize="17" Padding="5" Height="75" Margin="85,194,85,0" Foreground="White" TextChanged="convertTextToPassword">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15" />
+                </Style>
+            </TextBox.Resources>
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF251313"/>
+                    <GradientStop Color="#FF8A5B5B" Offset="1"/>
+                    <GradientStop Color="#FFFB2F2F" Offset="0.449"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+
+        <Button x:Name="login_btn" Content="Log In" FontSize="17" Height="90" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,309,0,0" Foreground="White" FontWeight="Bold" MouseEnter="hoverButtonLogin" Click="butttonLoginClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15" />
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFC52121" Offset="0.371"/>
+                    <GradientStop Color="#FFEA2626" Offset="0.651"/>
+                    <GradientStop Color="#FFD02323" Offset="0.851"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

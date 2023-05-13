@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Learn_Wpf</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\background-image.jpg" />
+    <None Remove="img\image1.jpeg" />
+    <None Remove="img\image2.jpeg" />
+    <None Remove="img\image3.jpeg" />
+    <None Remove="img\image4.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\background-image.jpg" />
+    <Resource Include="img\image1.jpeg" />
+    <Resource Include="img\image2.jpeg" />
+    <Resource Include="img\image3.jpeg" />
+    <Resource Include="img\image4.jpeg" />
+  </ItemGroup>
+
+</Project>

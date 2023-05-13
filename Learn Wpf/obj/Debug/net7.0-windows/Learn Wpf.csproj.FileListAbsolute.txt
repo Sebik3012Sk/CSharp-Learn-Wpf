@@ -1,0 +1,23 @@
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\bin\Debug\net7.0-windows\Learn Wpf.exe
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\bin\Debug\net7.0-windows\Learn Wpf.deps.json
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\bin\Debug\net7.0-windows\Learn Wpf.runtimeconfig.json
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\bin\Debug\net7.0-windows\Learn Wpf.dll
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\bin\Debug\net7.0-windows\Learn Wpf.pdb
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.csproj.AssemblyReference.cache
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf_MarkupCompile.cache
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf_MarkupCompile.lref
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.g.resources
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.AssemblyInfoInputs.cache
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.AssemblyInfo.cs
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.csproj.CoreCompileInputs.cache
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.dll
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\refint\Learn Wpf.dll
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.pdb
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\Learn Wpf.genruntimeconfig.cache
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\ref\Learn Wpf.dll
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\PageOutput\OutputOrderPage.g.cs
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\PageOutput\OutputOrderPage.baml
