@@ -24,6 +24,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+
+
         <Menu Grid.Column="0" Width="250" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="5">
             <Menu.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -46,28 +48,47 @@
 
             <TextBlock Text="Food Menu" FontSize="30" Foreground="#fff" Margin="5"/>
 
-            <Separator Width="250" />
+            <Separator Width="{Binding width_sep_menu , Mode=Default}" />
             <MenuItem FontSize="25" Foreground="#ffff" Header="Food" Margin="0,5,0,0" />
-            <Separator Width="250" />
+            <Separator Width="{Binding width_sep_menu , Mode=Default}" />
 
             <MenuItem FontSize="25" Foreground="#ffff" Header="Deserts" Margin="0,5,0,0" />
-            <Separator Width="250"/>
+            <Separator Width="{Binding width_sep_menu , Mode=Default}"/>
 
             <MenuItem FontSize="25" Foreground="#ffff" Header="Soup" Margin="0,5,0,0" />
-            <Separator Width="250" />
+            <Separator Width="{Binding width_sep_menu , Mode=Default}" />
 
             <MenuItem FontSize="25" Foreground="#ffff" Header="Snacks" Margin="0,5,0,0" />
-            <Separator Width="250" />
+            <Separator Width="{Binding width_sep_menu , Mode=Default}" />
 
         </Menu>
 
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#ffff" FontSize="35" Text="Our Food" />
 
-        <Image Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Source="../img/image1.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+        <Button Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,55,0,0">
+            <Image Source="../img/image1.jpeg" Width="175" Height="175" ></Image>
+        </Button>
 
-        <Image Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Source="../img/image2.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+        <Button Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,55,0,0">
+            <Image Source="../img/image2.jpeg" Width="175" Height="175" ></Image>
+        </Button>
 
-        <Image Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Source="../img/image3.jpeg" Width="175" Height="175" Margin="0,55,0,0"></Image>
+        <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,55,5,0">
+            <Image Source="../img/image3.jpeg" Width="175" Height="175"></Image>
+        </Button>
+
+        <Button Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,235,0,50">
+            <Image Source="../img/image4.jpeg" Width="175" Height="175"></Image>
+        </Button>
+
+        <Button Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5,235,0,50">
+            <Image  Source="../img/image5.jpeg" Width="175" Height="175" ></Image>
+        </Button>
+
+        <Button Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5,0,0,35">
+            <Image Source="../img/image6.jpeg" Width="170" Height="175" />
+        </Button>
+        
 
     </Grid>
 </Page>

@@ -21,12 +21,12 @@ namespace Learn_Wpf.PageOutput
     public partial class OutputOrderPage : Page
     {
 
-        public int width_sep_menu { get; set; } = 250;
+        
 
         public OutputOrderPage()
         {
             InitializeComponent();
-            DataContext = this;
+            DataContext = new PageOrderSettings();
         }
     }
 }
