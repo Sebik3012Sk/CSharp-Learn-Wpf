@@ -21,7 +21,6 @@ namespace Learn_Wpf.PageOutput
     public partial class OutputOrderPage : Page
     {
 
-        
 
         public OutputOrderPage()
         {

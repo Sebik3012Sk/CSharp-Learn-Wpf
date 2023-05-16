@@ -53,7 +53,7 @@ namespace Learn_Wpf.PageOutput {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Learn Wpf;V1.0.0.0;component/pageoutput/outputorderpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Learn Wpf;component/pageoutput/outputorderpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\PageOutput\OutputOrderPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
