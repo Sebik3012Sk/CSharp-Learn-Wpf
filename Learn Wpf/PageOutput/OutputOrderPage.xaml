@@ -24,7 +24,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-
+        
+    
 
         <Menu Grid.Column="0" Width="250" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="5">
             <Menu.Background>

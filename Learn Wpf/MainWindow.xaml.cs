@@ -34,7 +34,40 @@ namespace Learn_Wpf
 
         private void butttonLoginClick(object sender , RoutedEventArgs e)
         {
-            this.Content = new OutputOrderPage();
+
+            string text_username_box = username_box.Text.ToString();
+            string text_password_box = password_box.Password.ToString();
+
+            if(username_box.GetLineLength(0) < 10)
+            {
+                MessageBox.Show("No Minimum Lenght in Username", "Error", MessageBoxButton.OKCancel, MessageBoxImage.Error);
+                username_box.BorderBrush = new SolidColorBrush(Color.FromRgb(255, 0, 0));
+                username_box.BorderThickness = new Thickness(3);
+                username_box.Opacity = 0.7;
+                username_box.Background = new SolidColorBrush(Color.FromRgb(149, 0, 11));
+            }
+            else if(password_box.Password.Length < 10)
+            {
+                MessageBox.Show("No Minimum Lenght in Password", "Error" , MessageBoxButton.OKCancel, MessageBoxImage.Error);
+                password_box.BorderBrush = new SolidColorBrush(Color.FromRgb(255, 0, 0));
+                password_box.BorderThickness = new Thickness(3);
+                password_box.Opacity = 0.7;
+                password_box.Background = new SolidColorBrush(Color.FromRgb(149, 0, 11));
+            }
+            else
+            {
+                this.Content = new OutputOrderPage();
+            }
+
+            
+        }
+       
+        private void fastGoToApp(object sender , KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                this.Content = new OutputOrderPage();
+            }
         }
 
         // button hover effect
@@ -44,28 +77,9 @@ namespace Learn_Wpf
             login_btn.Background = new SolidColorBrush(Color.FromRgb(213, 0, 25));
         }
 
-        // convert text to password
 
 
-        private void convertTextToPassword(object sender, TextChangedEventArgs e)
-        {
-
-            var tb = (TextBox)sender;
-            using (tb.DeclareChangeBlock())
-            {
-                foreach (var c in e.Changes)
-                {
-                    if (c.AddedLength == 0) continue;
-                    tb.Select(c.Offset, c.AddedLength);
-                    if (tb.SelectedText.Contains(' '))
-                    {
-                        tb.SelectedText = tb.SelectedText.Replace(' ', '_');
-                    }
-                    tb.Select(c.Offset + c.AddedLength, 0);
-                }
-            }
-
-        }
+        
 
     }
 }

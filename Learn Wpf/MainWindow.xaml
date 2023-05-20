@@ -23,7 +23,7 @@
 
         <TextBlock Text="Food Master Restaurant" Foreground="#ffff" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
 
-        <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Top" TextAlignment="Center" FontSize="17" Padding="5" Height="75" Margin="90" Foreground="White">
+        <TextBox x:Name="username_box" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="17" Padding="10" Height="75" Margin="90" Foreground="White">
             <TextBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="15" />
@@ -38,20 +38,22 @@
             </TextBox.Background>
         </TextBox>
 
-        <TextBox x:Name="password_textbox" VerticalAlignment="Top" TextAlignment="Center" FontSize="17" Padding="5" Height="75" Margin="85,194,85,0" Foreground="White" TextChanged="convertTextToPassword">
-            <TextBox.Resources>
+        <PasswordBox KeyDown="fastGoToApp" x:Name="password_box" Style="{DynamicResource round_passwordbox}" VerticalAlignment="Top" FontSize="17" Padding="10" Height="75" Margin="85,194,85,0" Foreground="White">
+            <PasswordBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="15" />
                 </Style>
-            </TextBox.Resources>
-            <TextBox.Background>
+            </PasswordBox.Resources>
+            <PasswordBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF251313"/>
                     <GradientStop Color="#FF8A5B5B" Offset="1"/>
                     <GradientStop Color="#FFFB2F2F" Offset="0.449"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
+            </PasswordBox.Background>
+        </PasswordBox>
+
+
 
         <Button x:Name="login_btn" Content="Log In" FontSize="17" Height="90" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,309,0,0" Foreground="White" FontWeight="Bold" MouseEnter="hoverButtonLogin" Click="butttonLoginClick">
             <Button.Resources>

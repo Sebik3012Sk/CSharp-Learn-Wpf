@@ -21,3 +21,4 @@ C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-window
 C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\ref\Learn Wpf.dll
 C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\PageOutput\OutputOrderPage.g.cs
 C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\PageOutput\OutputOrderPage.baml
+C:\Users\sebik\Desktop\Wpf App Learn\Learn Wpf\Learn Wpf\obj\Debug\net7.0-windows\App.baml
